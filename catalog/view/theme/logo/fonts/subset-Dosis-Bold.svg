@@ -1,0 +1,39 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+<metadata>
+Created by FontForge 20161013 at Tue Mar 27 19:33:04 2012
+ By ,,,
+Copyright (c) 2011, 2012, Pablo Impallari (www.impallari.com|impallari@gmail.com), Copyright (c) 2011, 2012, Edgar Tolentino, Copyright (c) 2011, 2012,  Igino Marini (mail@ikern.com), with Reserved Font Name "Dosis"
+</metadata>
+<defs>
+<font id="Dosis-Bold" horiz-adv-x="0" >
+  <font-face 
+    font-family="Dosis"
+    font-weight="700"
+    font-stretch="normal"
+    units-per-em="1000"
+    panose-1="2 1 8 3 2 2 2 6 0 3"
+    ascent="800"
+    descent="-200"
+    bbox="37 28 352 445"
+    underline-thickness="26"
+    underline-position="-103"
+    unicode-range="U+0020-0020"
+  />
+<missing-glyph horiz-adv-x="388" 
+d="M45 101l91 135l-91 135q-8 11 -8 27q0 20 16 33.5t36 13.5q23 0 38 -20l67 -112l68 112q14 20 37 20q21 0 37 -13.5t16 -33.5q0 -14 -9 -27l-91 -135l91 -135q9 -12 9 -27q0 -20 -16 -33t-37 -13q-24 0 -37 19l-68 112l-67 -112q-15 -19 -38 -19q-20 0 -36 13t-16 33
+q0 17 8 27z" />
+    <glyph glyph-name=".notdef" horiz-adv-x="388" 
+d="M45 101l91 135l-91 135q-8 11 -8 27q0 20 16 33.5t36 13.5q23 0 38 -20l67 -112l68 112q14 20 37 20q21 0 37 -13.5t16 -33.5q0 -14 -9 -27l-91 -135l91 -135q9 -12 9 -27q0 -20 -16 -33t-37 -13q-24 0 -37 19l-68 112l-67 -112q-15 -19 -38 -19q-20 0 -36 13t-16 33
+q0 17 8 27z" />
+    <glyph glyph-name=".null" 
+ />
+    <glyph glyph-name="nonmarkingreturn" horiz-adv-x="333" 
+ />
+    <glyph glyph-name="CR" 
+ />
+    <glyph glyph-name="space" unicode=" " horiz-adv-x="200" 
+ />
+  </font>
+</defs></svg>

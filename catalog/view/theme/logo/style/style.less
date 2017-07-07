@@ -1,12 +1,6 @@
 @import "http://fonts.fontstorage.com/import/opensans.css";
-/*
-	Open Sans, 300, 300 italic, 400, 400 italic, 600, 600 italic, 700, 700 italic, 800, 800 italic
-*/
 @import "http://fonts.fontstorage.com/import/dosis.css";
 
-/*
-	Dosis, 200, 300, 400, 500, 600, 700, 800
-*/
 .os {
   font-family: 'Open Sans';
   font-weight: normal;
@@ -414,6 +408,7 @@ header {
 [data-amount] {
   position: relative;
   &:after {
+    font-size: 13px;
     .shadow;
     position: absolute;
     width: 22px;
@@ -1344,7 +1339,7 @@ header {
   line-height: 30px;
   margin: 15px 0 40px;
   color: @white;
-  a {
+  a, i {
     color: inherit;
     &:hover {
       text-decoration: underline;
@@ -1767,15 +1762,18 @@ header {
 .category-item-grid {
   .flex();
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
 .category-item-grid .good_item {
   margin-left: 0;
-  margin-right: 0;
   width: 220px;
   height: 290px;
   margin-bottom: 25px;
+  margin-right: 10px;
+  &:nth-child(3n){
+    margin-right: 20px;
+  }
   .img {
     height: 230px;
   }
@@ -1933,7 +1931,7 @@ header {
     }
     p {
       line-height: 24px;
-      width:270px;
+      width: 270px;
     }
     form {
       margin: 15px 0;
@@ -1958,14 +1956,16 @@ header {
     }
   }
 }
-.checkout-item-buttons{
+
+.checkout-item-buttons {
   margin-top: 20px;
   .flex();
   width: 100%;
-  div:first-child{
+  div:first-child {
     margin-right: 165px;
   }
 }
+
 .continue, .continue-confirm, .previous, .login-cont {
   width: 160px;
   height: 40px;
@@ -1977,27 +1977,164 @@ header {
   cursor: pointer;
   .trans(background-color, .1s);
   .border-r(5px);
-  &:hover{
+  &:hover {
     background: @grey;
   }
 }
-.login-cont{
+
+.login-cont {
   background: @light_grey;
 }
-.customer-form{
-  div{
+
+.customer-form {
+  div {
     margin-bottom: 10px;
-    &:last-child{
+    &:last-child {
       margin-bottom: 0;
     }
-    span{
+    span {
       display: inline-block;
       width: 90px;
     }
-    input{
+    input {
       height: 26px;
       background: @light_grey;
       padding: 0 5px;
     }
+  }
+}
+
+.lang-currency-wr {
+  .flex();
+  form {
+    position: relative;
+    display: block;
+    &:first-child {
+      margin-right: 10px;
+    }
+    .btn-group.active {
+      .btn_front {
+        background: white;
+        span, i, strong {
+          color: @dark-gray;
+        }
+      }
+      .dropdown-menu {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(-3px);
+
+      }
+    }
+    .btn_front {
+      .trans();
+      background: @green;
+      color: white;
+      padding: 0 10px;
+      display: block;
+      height: 37px;
+      line-height: 40px;
+      border-bottom: 2px solid #d9d9d9;
+      border-radius: 0 0 4px 4px;
+      -moz-border-radius: 0 0 4px 4px;
+      -webkit-border-radius: 0 0 4px 4px;
+      border-bottom: 2px solid transparent;
+      span, i, strong {
+        .trans();
+        color: white;
+      }
+      &:hover {
+        background: white;
+        span, i, strong {
+          color: @dark-gray;
+        }
+      }
+    }
+    .dropdown-menu{
+      border: 1px solid @light_grey;
+      border-top: none;
+      opacity: 0;
+      visibility: hidden;
+      transform: translateY(10px);
+      position: absolute;
+      z-index: 1000;
+      top: 40px;
+      width: 100%;
+      .trans();
+      li {
+        button {
+          background: white;
+          display: block;
+          width: 100%;
+          padding: 10px 0;
+          border-top:1px solid @light_grey;
+          &:hover {
+            background: @light_grey;
+          }
+        }
+      }
+    }
+  }
+}
+//
+.login {
+  .flex;
+  justify-content: space-between;
+}
+
+.well {
+  width: 48%;
+  background: @light_grey;
+  .border-r();
+  padding: 20px;
+  h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  p {
+    margin-bottom: 15px;
+    line-height: 20px;
+  }
+  .forgott-password {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  .form-group {
+    .flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+    input {
+      height: 30px;
+      width: 45%;
+      background: @light_grey;
+      padding: 0 10px;
+    }
+  }
+}
+
+.logo-btn {
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 10px;
+  background: #709b1d;
+  border-bottom: 3px solid #5b8112;
+  color: white;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  .trans();
+  &:hover {
+    background: #929b11;
   }
 }

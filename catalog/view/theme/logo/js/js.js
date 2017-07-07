@@ -93,8 +93,10 @@ $(document).ready(function () {
     $('.share-icon').mouseleave(function () {
         $(this).removeClass('animated').removeClass('rubberBand')
     });
-    $('.basket, .note').click(function () {
+    $('.basket, .note').click(function (e) {
+        e.preventDefault()
         $(this).closest('.basket-wr-item').toggleClass('active');
+        return false;
     });
 
     $('.checkout-item-body:not(:first)').hide();
@@ -105,6 +107,12 @@ $(document).ready(function () {
     $('.previous').click(function () {
         $('.checkout-item-body').slideUp();
         $(this).closest('.checkout-item').prev().find('.checkout-item-body').slideDown();
+    });
+
+    $('.btn_front').click(function (e) {
+        e.preventDefault();
+        $(this).closest('.btn-group').toggleClass('active');
+        return false;
     });
 });
 

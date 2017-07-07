@@ -1,0 +1,119 @@
+2017-07-06 14:53:55 - PHP Notice:  Undefined variable: title in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/home.tpl on line 6
+2017-07-06 14:53:55 - PHP Notice:  Undefined variable: styles in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/home.tpl on line 18
+2017-07-06 14:53:55 - PHP Warning:  Invalid argument supplied for foreach() in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/home.tpl on line 18
+2017-07-06 14:53:55 - PHP Notice:  Undefined variable: links in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/home.tpl on line 23
+2017-07-06 14:53:55 - PHP Warning:  Invalid argument supplied for foreach() in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/home.tpl on line 23
+2017-07-06 14:53:55 - PHP Notice:  Undefined variable: scripts in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/home.tpl on line 26
+2017-07-06 14:53:55 - PHP Warning:  Invalid argument supplied for foreach() in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/home.tpl on line 26
+2017-07-07 6:47:35 - PHP Notice:  Undefined variable: lang in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/home.tpl on line 2
+2017-07-07 6:47:35 - PHP Notice:  Undefined variable: title in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/home.tpl on line 6
+2017-07-07 6:47:35 - PHP Notice:  Undefined variable: styles in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/home.tpl on line 18
+2017-07-07 6:47:35 - PHP Warning:  Invalid argument supplied for foreach() in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/home.tpl on line 18
+2017-07-07 6:47:35 - PHP Notice:  Undefined variable: links in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/home.tpl on line 24
+2017-07-07 6:47:35 - PHP Warning:  Invalid argument supplied for foreach() in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/home.tpl on line 24
+2017-07-07 6:47:35 - PHP Notice:  Undefined variable: scripts in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/home.tpl on line 28
+2017-07-07 6:47:35 - PHP Warning:  Invalid argument supplied for foreach() in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/home.tpl on line 28
+2017-07-07 6:56:41 - PHP Notice:  Undefined variable: lang in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/home.tpl on line 2
+2017-07-07 6:56:41 - PHP Notice:  Undefined variable: title in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/home.tpl on line 6
+2017-07-07 6:56:41 - PHP Notice:  Undefined variable: styles in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/home.tpl on line 18
+2017-07-07 6:56:41 - PHP Warning:  Invalid argument supplied for foreach() in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/home.tpl on line 18
+2017-07-07 6:56:41 - PHP Notice:  Undefined variable: links in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/home.tpl on line 24
+2017-07-07 6:56:41 - PHP Warning:  Invalid argument supplied for foreach() in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/home.tpl on line 24
+2017-07-07 6:56:41 - PHP Notice:  Undefined variable: scripts in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/home.tpl on line 28
+2017-07-07 6:56:41 - PHP Warning:  Invalid argument supplied for foreach() in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/home.tpl on line 28
+2017-07-07 7:01:34 - PHP Notice:  Undefined variable: lang in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/home.tpl on line 2
+2017-07-07 7:01:34 - PHP Notice:  Undefined variable: tittle in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/home.tpl on line 6
+2017-07-07 7:01:34 - PHP Notice:  Undefined variable: styles in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/home.tpl on line 18
+2017-07-07 7:01:34 - PHP Warning:  Invalid argument supplied for foreach() in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/home.tpl on line 18
+2017-07-07 7:01:34 - PHP Notice:  Undefined variable: links in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/home.tpl on line 24
+2017-07-07 7:01:34 - PHP Warning:  Invalid argument supplied for foreach() in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/home.tpl on line 24
+2017-07-07 7:01:34 - PHP Notice:  Undefined variable: scripts in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/home.tpl on line 28
+2017-07-07 7:01:34 - PHP Warning:  Invalid argument supplied for foreach() in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/home.tpl on line 28
+2017-07-07 7:07:01 - PHP Notice:  Undefined variable: lang in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/home.tpl on line 2
+2017-07-07 7:07:01 - PHP Notice:  Undefined variable: title in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/home.tpl on line 6
+2017-07-07 7:07:01 - PHP Notice:  Undefined variable: styles in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/home.tpl on line 18
+2017-07-07 7:07:01 - PHP Warning:  Invalid argument supplied for foreach() in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/home.tpl on line 18
+2017-07-07 7:07:01 - PHP Notice:  Undefined variable: links in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/home.tpl on line 24
+2017-07-07 7:07:01 - PHP Warning:  Invalid argument supplied for foreach() in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/home.tpl on line 24
+2017-07-07 7:07:01 - PHP Notice:  Undefined variable: scripts in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/home.tpl on line 28
+2017-07-07 7:07:01 - PHP Warning:  Invalid argument supplied for foreach() in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/home.tpl on line 28
+2017-07-07 7:13:30 - PHP Notice:  Undefined variable: lang in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/home.tpl on line 2
+2017-07-07 7:13:30 - PHP Notice:  Undefined variable: base in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/home.tpl on line 5
+2017-07-07 7:13:30 - PHP Notice:  Undefined variable: title in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/home.tpl on line 7
+2017-07-07 7:13:30 - PHP Notice:  Undefined variable: links in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/home.tpl on line 19
+2017-07-07 7:13:30 - PHP Warning:  Invalid argument supplied for foreach() in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/home.tpl on line 19
+2017-07-07 7:13:30 - PHP Notice:  Undefined variable: styles in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/home.tpl on line 22
+2017-07-07 7:13:30 - PHP Warning:  Invalid argument supplied for foreach() in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/home.tpl on line 22
+2017-07-07 7:13:30 - PHP Notice:  Undefined variable: scripts in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/home.tpl on line 25
+2017-07-07 7:13:30 - PHP Warning:  Invalid argument supplied for foreach() in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/home.tpl on line 25
+2017-07-07 7:13:50 - PHP Notice:  Undefined variable: lang in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/home.tpl on line 2
+2017-07-07 7:13:50 - PHP Notice:  Undefined variable: base in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/home.tpl on line 5
+2017-07-07 7:13:50 - PHP Notice:  Undefined variable: title in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/home.tpl on line 7
+2017-07-07 7:13:50 - PHP Notice:  Undefined variable: styles in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/home.tpl on line 19
+2017-07-07 7:13:50 - PHP Warning:  Invalid argument supplied for foreach() in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/home.tpl on line 19
+2017-07-07 7:13:50 - PHP Notice:  Undefined variable: links in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/home.tpl on line 25
+2017-07-07 7:13:50 - PHP Warning:  Invalid argument supplied for foreach() in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/home.tpl on line 25
+2017-07-07 7:13:50 - PHP Notice:  Undefined variable: scripts in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/home.tpl on line 29
+2017-07-07 7:13:50 - PHP Warning:  Invalid argument supplied for foreach() in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/home.tpl on line 29
+2017-07-07 7:38:55 - PHP Notice:  Undefined index: link in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/header.tpl on line 140
+2017-07-07 7:38:55 - PHP Notice:  Undefined index: link in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/header.tpl on line 140
+2017-07-07 7:38:55 - PHP Notice:  Undefined index: link in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/header.tpl on line 140
+2017-07-07 7:38:55 - PHP Notice:  Undefined index: link in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/header.tpl on line 140
+2017-07-07 7:38:55 - PHP Notice:  Undefined index: link in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/header.tpl on line 140
+2017-07-07 7:38:55 - PHP Notice:  Undefined index: link in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/header.tpl on line 140
+2017-07-07 7:38:55 - PHP Notice:  Undefined index: link in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/header.tpl on line 140
+2017-07-07 7:38:55 - PHP Notice:  Undefined index: link in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/header.tpl on line 140
+2017-07-07 7:39:10 - PHP Notice:  Undefined index: link in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/header.tpl on line 140
+2017-07-07 7:39:10 - PHP Notice:  Undefined index: link in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/header.tpl on line 140
+2017-07-07 7:39:10 - PHP Notice:  Undefined index: link in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/header.tpl on line 140
+2017-07-07 7:39:10 - PHP Notice:  Undefined index: link in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/header.tpl on line 140
+2017-07-07 7:39:10 - PHP Notice:  Undefined index: link in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/header.tpl on line 140
+2017-07-07 7:39:10 - PHP Notice:  Undefined index: link in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/header.tpl on line 140
+2017-07-07 7:39:10 - PHP Notice:  Undefined index: link in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/header.tpl on line 140
+2017-07-07 7:39:10 - PHP Notice:  Undefined index: link in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/header.tpl on line 140
+2017-07-07 7:45:07 - PHP Notice:  Undefined index: link in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/header.tpl on line 144
+2017-07-07 7:45:07 - PHP Notice:  Undefined index: link in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/header.tpl on line 144
+2017-07-07 7:45:07 - PHP Notice:  Undefined index: link in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/header.tpl on line 144
+2017-07-07 7:45:07 - PHP Notice:  Undefined index: link in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/header.tpl on line 144
+2017-07-07 7:45:07 - PHP Notice:  Undefined index: link in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/header.tpl on line 144
+2017-07-07 7:45:07 - PHP Notice:  Undefined index: link in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/header.tpl on line 144
+2017-07-07 7:45:07 - PHP Notice:  Undefined index: link in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/header.tpl on line 144
+2017-07-07 7:45:07 - PHP Notice:  Undefined index: link in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/header.tpl on line 144
+2017-07-07 7:45:15 - PHP Notice:  Undefined index: link in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/header.tpl on line 144
+2017-07-07 7:45:15 - PHP Notice:  Undefined index: link in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/header.tpl on line 144
+2017-07-07 7:45:15 - PHP Notice:  Undefined index: link in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/header.tpl on line 144
+2017-07-07 7:45:15 - PHP Notice:  Undefined index: link in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/header.tpl on line 144
+2017-07-07 7:45:15 - PHP Notice:  Undefined index: link in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/header.tpl on line 144
+2017-07-07 7:45:15 - PHP Notice:  Undefined index: link in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/header.tpl on line 144
+2017-07-07 7:45:15 - PHP Notice:  Undefined index: link in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/header.tpl on line 144
+2017-07-07 7:45:15 - PHP Notice:  Undefined index: link in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/header.tpl on line 144
+2017-07-07 7:45:26 - PHP Notice:  Undefined index: link in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/header.tpl on line 144
+2017-07-07 7:45:26 - PHP Notice:  Undefined index: link in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/header.tpl on line 144
+2017-07-07 7:45:26 - PHP Notice:  Undefined index: link in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/header.tpl on line 144
+2017-07-07 7:45:26 - PHP Notice:  Undefined index: link in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/header.tpl on line 144
+2017-07-07 7:45:26 - PHP Notice:  Undefined index: link in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/header.tpl on line 144
+2017-07-07 7:45:26 - PHP Notice:  Undefined index: link in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/header.tpl on line 144
+2017-07-07 7:45:26 - PHP Notice:  Undefined index: link in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/header.tpl on line 144
+2017-07-07 7:45:26 - PHP Notice:  Undefined index: link in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/header.tpl on line 144
+2017-07-07 7:55:09 - PHP Notice:  Undefined variable: acount in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/header.tpl on line 55
+2017-07-07 7:55:15 - PHP Notice:  Undefined variable: acount in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/header.tpl on line 55
+2017-07-07 7:55:20 - PHP Notice:  Undefined variable: acount in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/header.tpl on line 55
+2017-07-07 7:58:43 - PHP Notice:  Undefined variable: acount in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/header.tpl on line 58
+2017-07-07 8:02:04 - PHP Notice:  Use of undefined constant checkout - assumed 'checkout' in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/header.tpl on line 42
+2017-07-07 10:56:28 - PHP Notice:  Undefined variable: products in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/header.tpl on line 104
+2017-07-07 11:17:49 - PHP Notice:  Undefined variable: text_loading in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/header.tpl on line 123
+2017-07-07 11:17:49 - PHP Notice:  Undefined variable: text_items in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/header.tpl on line 123
+2017-07-07 11:17:49 - PHP Notice:  Undefined variable: products in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/header.tpl on line 125
+2017-07-07 11:17:49 - PHP Notice:  Undefined variable: vouchers in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/header.tpl on line 125
+2017-07-07 11:17:49 - PHP Notice:  Undefined variable: text_empty in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/header.tpl on line 175
+2017-07-07 11:23:39 - PHP Notice:  Undefined variable: text_loading in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/header.tpl on line 123
+2017-07-07 11:23:39 - PHP Notice:  Undefined variable: text_items in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/header.tpl on line 123
+2017-07-07 11:23:39 - PHP Notice:  Undefined variable: products in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/header.tpl on line 125
+2017-07-07 11:23:39 - PHP Notice:  Undefined variable: vouchers in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/header.tpl on line 125
+2017-07-07 11:23:39 - PHP Notice:  Undefined variable: text_empty in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/header.tpl on line 175
+2017-07-07 11:24:35 - PHP Notice:  Undefined variable: text_loading in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/header.tpl on line 123
+2017-07-07 11:24:35 - PHP Notice:  Undefined variable: text_items in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/header.tpl on line 123
+2017-07-07 11:24:35 - PHP Notice:  Undefined variable: products in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/header.tpl on line 125
+2017-07-07 11:24:35 - PHP Notice:  Undefined variable: vouchers in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/header.tpl on line 125
+2017-07-07 11:24:35 - PHP Notice:  Undefined variable: text_empty in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/header.tpl on line 175
+2017-07-07 12:14:24 - PHP Notice:  Undefined variable: content_botton in /home/jbaskoff/public_html/logoshop.loc/catalog/view/theme/logo/template/common/home.tpl on line 956

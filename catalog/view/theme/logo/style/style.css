@@ -1017,9 +1017,11 @@ header .wrapper {
 .subscribe input {
   width: 450px;
   padding: 0 15px;
+  border-right-width: 1.5px;
 }
 .subscribe button {
   width: 145px;
+  border-left-width: 1.5px;
 }
 .subscribe button:hover {
   color: #83b228;
@@ -2109,6 +2111,7 @@ header .wrapper {
   display: -webkit-flex;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 40px;
 }
 .well {
   width: 48%;

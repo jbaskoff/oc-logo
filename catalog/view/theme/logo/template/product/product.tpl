@@ -57,10 +57,10 @@
                 <div class='good-characteristics'>
                     <p class="charact-item"><span class="charact">Menufacturer:</span><span
                             class="charact-value">Chanel</span></p>
-                    <p class="charact-item"><span class="charact">Availability:</span><span class="charact-value"><a
-                                href="#">in stock</a></span> 20 item(s)</p>
-                    <p class="charact-item"><span class="charact">Product Code:</span><span
-                            class="charact-value">PC03</span></p>
+                    <p class="charact-item"><span class="charact"><?= $text_stock ?></span><span class="charact-value"><a
+                                href="#">in stock</a></span><?= $product_info['quantity']  ?></p>
+                    <p class="charact-item"><span class="charact"><?= $text_model ?></span><span
+                            class="charact-value"><?= $model ?></span></p>
                     <h6>Product Dimensions and Weight</h6>
                     <p class="charact-item"><span class="charact">Product Lenght :</span><span class="charact-value">10.0000m</span>
                     </p>
@@ -92,7 +92,7 @@
                     <div class="tab-description-content">
                         <?= $description ?>
                     </div>
-                    <div class=""></div>
+                    <div class=""><?= $model ?></div>
                     <div class="tab-content-review">
                         <div class="tab-content-title">Last Review</div>
                         <hr class="single-hr">

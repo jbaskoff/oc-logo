@@ -364,13 +364,19 @@ header .wrapper {
 }
 .added-good .good-name-wr {
   width: 120px;
+  text-align: left;
+  margin-bottom: 4px;
 }
 .added-good .good-name {
+  display: block;
   text-transform: uppercase;
   font-size: 13px;
   text-align: left;
-  margin-top: 6px;
-  margin-bottom: 3px;
+  margin-top: 2px;
+  margin-bottom: 5px;
+}
+.added-good .good-name:hover {
+  text-decoration: underline;
 }
 .added-good .good-b-descr {
   text-align: left;
@@ -395,6 +401,21 @@ header .wrapper {
   width: 14px;
   height: 14px;
   background: url("../images/ico-basket-item-delete.png");
+  transform: rotate(0);
+  -webkit-transform: rotate(0);
+  -moz-transform: rotate(0);
+  -o-transform: rotate(0);
+  -ms-transform: rotate(0);
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.added-good .btn-del:hover {
+  transform: rotate(200deg);
+  -webkit-transform: rotate(200deg);
+  -moz-transform: rotate(200deg);
+  -o-transform: rotate(200deg);
+  -ms-transform: rotate(200deg);
 }
 .total-sum {
   height: 40px;

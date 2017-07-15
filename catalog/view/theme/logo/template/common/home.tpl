@@ -1,8 +1,6 @@
 <?= $header ?>
 <?= $content_top ?>
 
-
-
 <section id="popular_goods" class="wrapper goods_tabs">
     <ul class="tabs">
         <li class='active good_tab_item'>Fetured</li>

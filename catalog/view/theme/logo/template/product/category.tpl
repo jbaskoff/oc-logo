@@ -45,16 +45,16 @@ function html_rating($rating_count = 0)
 
                 <?php foreach ($products as $product) : ?>
 
-                    <div class="good_item" <?php if ($product['tax']) echo 'data-discount="' . discount($product['price'], $product['tax']) . '"'; ?>>
+                    <div class="good_item" <?= ($product['special']) ? 'data-discount="' . discount($product['price'], $product['special']) . '"' : ''; ?>>
                         <a href="<?= $product['href'] ?>" class="img"><img src="<?= $product['thumb'] ?>"
                                                                            alt="<?= $product['name'] ?>"></a>
                         <div class="good_title"><?= $product['name'] ?></div>
                         <div class="good_panel">
                             <div class="standard_panel">
                                 <div class="good_price">
-                                    <?php if ($product['tax']) : ?>
+                                    <?php if ($product['special']) : ?>
                                         <p class="good_old_price"><?= $product['price'] ?></p>
-                                        <p class="good_current_price"><?= $product['tax'] ?></p>
+                                        <p class="good_current_price"><?= $product['special'] ?></p>
                                     <?php else: ?>
                                         <p class="good_current_price"><?= $product['price'] ?></p>
                                     <?php endif; ?>
@@ -65,12 +65,12 @@ function html_rating($rating_count = 0)
                             </div>
                             <div class="hover_panel">
                                 <div class="good_buttons_wr">
-                                    <a href="#" class="good_btn card_btn active" aria-hidden="true"><i
-                                                class="fa fa-shopping-cart"></i><span>add to cart</span></a>
-                                    <a href="#" class="good_btn wish_btn" aria-hidden="true"><i
-                                                class="fa fa-pencil-square-o"></i><span>Add to wish list</span></a>
-                                    <a href="#" class="good_btn arrow_btn" aria-hidden="true"><i
-                                                class="fa fa-exchange"></i><span>Add to Compare</span></a>
+                                    <button onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');" class="good_btn card_btn active" aria-hidden="true"><i
+                                                class="fa fa-shopping-cart"></i><span><?= $button_cart ?></span></button>
+                                    <button onclick="wishlist.add('<?php echo $product['product_id']; ?>');" class="good_btn wish_btn" aria-hidden="true"><i
+                                                class="fa fa-pencil-square-o"></i><span><?= $button_wishlist ?></span></button>
+                                    <button onclick="compare.add('<?php echo $product['product_id']; ?>');" class="good_btn arrow_btn" aria-hidden="true"><i
+                                                class="fa fa-exchange"></i><span><?= $button_compare ?></span></button>
                                 </div>
                             </div>
                         </div>

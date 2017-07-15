@@ -6,8 +6,8 @@
                 <a href="#" class="contact-item">ABOUT US</a>
                 <a href="#" class="contact-item">CUSTOMAR SERVICE</a>
                 <a href="#" class="contact-item">PRIVACY POLICY</a>
-                <a href="#" class="contact-item">SITE MAP</a>
-                <a href="#" class="contact-item">CONTACT</a>
+                <a href="<?= $sitemap ?>" class="contact-item"><?= $text_sitemap ?></a>
+                <a href="<?= $contact ?>" class="contact-item"><?= $text_contact ?></a>
             </div>
             <div class="footer-contact">
                 <div class="contact-title">WHY BUY FROM US</div>
@@ -18,21 +18,21 @@
                 <a href="#" class="contact-item">GROUP SALES</a>
             </div>
             <div class="footer-contact">
-                <div class="contact-title">MY ACCOUNT</div>
-                <a href="#" class="contact-item">SIGN IN</a>
-                <a href="#" class="contact-item">VIEW CART</a>
-                <a href="#" class="contact-item">MY WISHLIST</a>
-                <a href="#" class="contact-item">STRACK MY ORDER</a>
+                <h5 class="contact-title"><?= $text_account ?></h5>
+                <a href="<?= $account ?>" class="contact-item"><?= $text_account ?></a>
+                <a href="<?= $shopping_cart ?>" class="contact-item"><?= $text_shopping_cart ?></a>
+                <a href="<?= $wishlist ?>" class="contact-item"><?= $text_wishlist ?></a>
+                <a href="<?= $order ?>" class="contact-item"><?= $text_order ?></a>
                 <a href="#" class="contact-item">HELP</a>
             </div>
             <div class="footer-contact">
-                <div class="contact-title">CONTACT</div>
+                <h5 class="contact-title"><?= $text_contact ?></h5>
                 <div class="address">EAST BOX NAGAR, SARULIA DEMRA, DHAKA-1361</div>
                 <div class="phone">
-                    <a href="tel:+880 1768760504">+880 1768760504</a>
+                    <a href="tel:+880 1768760504"><?= $telephone ?></a>
                     <a href="tel:+880 1735982113">+880 1735982113</a>
                 </div>
-                <a href="mailto:binburhan1@gmail.com" class="mail">binburhan1@gmail.com</a>
+                <a href="mailto:binburhan1@gmail.com" class="mail"><?= $mail ?></a>
             </div>
         </div>
     </div>

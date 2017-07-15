@@ -104,6 +104,12 @@ class ControllerAccountEdit extends Controller {
 			$data['error_telephone'] = '';
 		}
 
+        if (isset($this->error['telephone_2'])) {
+            $data['error_telephone_2'] = $this->error['telephone_2'];
+        } else {
+            $data['error_telephone_2'] = '';
+        }
+
 		if (isset($this->error['custom_field'])) {
 			$data['error_custom_field'] = $this->error['custom_field'];
 		} else {

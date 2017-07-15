@@ -42,6 +42,10 @@ $_['entry_address']                    = 'Адрес магазина:';
 $_['entry_geocode']                    = 'Местоположение';
 $_['entry_email']                      = 'E-Mail';
 $_['entry_telephone']                  = 'Телефон:';
+
+$_['entry_telephone_2']                = 'Телефон 2:';
+$_['entry_telephone_3']                = 'Телефон 3:';
+
 $_['entry_fax']                        = 'Факс';
 $_['entry_image']                      = 'Изображение на странице обратной связи';
 $_['entry_open']                       = 'Время работы';

@@ -481,13 +481,19 @@ header {
   }
   .good-name-wr {
     width: 120px;
+    text-align: left;
+    margin-bottom: 4px;
   }
   .good-name {
+    display: block;
     text-transform: uppercase;
     font-size: 13px;
     text-align: left;
-    margin-top: 6px;
-    margin-bottom: 3px;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    &:hover {
+      text-decoration: underline;
+    }
   }
   .good-b-descr {
     text-align: left;
@@ -512,6 +518,11 @@ header {
     width: 14px;
     height: 14px;
     background: url("../images/ico-basket-item-delete.png");
+    .rotate(0);
+    .trans();
+    &:hover {
+      .rotate(200deg);
+    }
   }
 }
 

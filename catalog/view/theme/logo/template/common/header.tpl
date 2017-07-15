@@ -1,7 +1,3 @@
-<!--<pre>-->
-<!--    --><?php //var_dump($categories);?>
-<!---->
-<!--</pre>-->
 <!DOCTYPE html>
 <html lang="<?= $lang ?>">
 <head>
@@ -36,10 +32,10 @@
 <header>
     <div class="wrapper">
         <ul class="header_nav">
-            <li><a class="head_nav_item" href="<?= $home ?>"><i class="nav_ico fa fa-home"></i><?= $text_home ?></a></li>
-            <li><a class="head_nav_item" href="<?= $account ?>"><i class="nav_ico fa fa-user"></i><?= $text_account ?></a></li>
-            <li><a class="head_nav_item" href="<?= $shopping_cart ?>"><i class="nav_ico fa fa-shopping-cart"></i><?= $text_shopping_cart ?></a></li>
-            <li><a class="head_nav_item" href="<?= $checkout ?>"><i class="nav_ico fa fa-check"></i><?= $text_checkout ?></a></li>
+            <li><a class="head_nav_item <?= ($home == $og_url) ? 'active' : '' ?>" href="<?= $home ?>"><i class="nav_ico fa fa-home"></i><?= $text_home ?></a></li>
+            <li><a class="head_nav_item <?= ($account == $og_url) ? 'active' : '' ?>" href="<?= $account ?>"><i class="nav_ico fa fa-user"></i><?= $text_account ?></a></li>
+            <li><a class="head_nav_item <?= ($shopping_cart == $og_url) ? 'active' : '' ?>" href="<?= $shopping_cart ?>"><i class="nav_ico fa fa-shopping-cart"></i><?= $text_shopping_cart ?></a></li>
+            <li><a class="head_nav_item <?= ($checkout == $og_url) ? 'active' : '' ?>" href="<?= $checkout ?>"><i class="nav_ico fa fa-check"></i><?= $text_checkout ?></a></li>
         </ul>
         <div class="lang-currency-wr">
             <?= $language ?>
@@ -107,7 +103,11 @@
     <div class="wrapper">
         <ul class="nav_cat">
             <?php foreach ($categories as $category) : ?>
-                <li><a class="nav_cat_item" href="<?= $category['href'] ?>"><?= $category['name'] ?></a></li>
+                <?php if ($category['href'] == $og_url) : ?>
+                    <li ><a class="nav_cat_item active" href="<?= $category['href'] ?>"><?= $category['name'] ?></a></li>
+                <?php else: ?>
+                    <li><a class="nav_cat_item" href="<?= $category['href'] ?>"><?= $category['name'] ?></a></li>
+                <?php endif; ?>
             <?php endforeach; ?>
         </ul>
         <form class="search_form" action="">

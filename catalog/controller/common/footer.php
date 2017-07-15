@@ -2,6 +2,10 @@
 class ControllerCommonFooter extends Controller {
 	public function index() {
 		$this->load->language('common/footer');
+        $this->load->language('common/header');
+        $this->load->language('setting/setting');
+
+        $this->load->model('localisation/language');
 
 		$data['scripts'] = $this->document->getScripts('footer');
 
@@ -19,6 +23,11 @@ class ControllerCommonFooter extends Controller {
 		$data['text_order'] = $this->language->get('text_order');
 		$data['text_wishlist'] = $this->language->get('text_wishlist');
 		$data['text_newsletter'] = $this->language->get('text_newsletter');
+
+		$data['text_shopping_cart'] = $this->language->get('text_shopping_cart');
+		$data['shopping_cart'] = $this->url->link('checkout/cart');
+
+        $data['telephone'] = $this->config->get('config_telephone');
 
 		$this->load->model('catalog/information');
 

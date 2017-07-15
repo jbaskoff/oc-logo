@@ -8,7 +8,11 @@ function slickInitialize(selector) {
         variableWidth: true
     })
 }
-
+function basketOpenClosed() {
+    $('#customer-basket, .note').click(function (e) {
+        $(this).closest('.basket-wr-item').toggleClass('active');
+    });
+}
 function tabsInitialization(tabsWrapId) {
     $('#' + tabsWrapId + " .tabs-content>div:not(:first)").hide();
 
@@ -30,7 +34,7 @@ function tabsInitialization(tabsWrapId) {
         $('#' + tabsWrapId + ' .tabs-content>*').hide();
 
         $('#' + tabsWrapId + ' .tabs-content>*').each(function () {
-            if($(this).hasClass('slick-slider')) $(this).slick('unslick')
+            if ($(this).hasClass('slick-slider')) $(this).slick('unslick')
         });
 
         $('#' + tabsWrapId + ' .tabs-content>div[data-tab=' + $(this).data('tab') + ']').show();
@@ -45,7 +49,7 @@ $(document).ready(function () {
     tabsInitialization("laptop");
     tabsInitialization("desktop");
     tabsInitializationSingle("good-tabs");
-
+    basketOpenClosed();
     $('.main-slider').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -55,7 +59,7 @@ $(document).ready(function () {
     });
 
     $('.good_btn').mouseenter(function () {
-        if($(this).hasClass('active')) return;
+        if ($(this).hasClass('active')) return;
         $(this).closest('.good_buttons_wr').find('.good_btn').removeClass('active');
         $(this).addClass('active');
     });
@@ -80,7 +84,7 @@ $(document).ready(function () {
 
     $('.big-img-sl img').attr('src', $('.small-img-sl .img-wr.active').find('img').attr('src'));
     $('.small-img-sl .img-wr').click(function () {
-        if($(this).hasClass('active'));
+        if ($(this).hasClass('active'));
         $('.small-img-sl .img-wr').removeClass('active');
         $(this).addClass('active');
         $('.big-img-sl img').hide();
@@ -93,11 +97,7 @@ $(document).ready(function () {
     $('.share-icon').mouseleave(function () {
         $(this).removeClass('animated').removeClass('rubberBand')
     });
-    $('.basket, .note').click(function (e) {
-        e.preventDefault()
-        $(this).closest('.basket-wr-item').toggleClass('active');
-        return false;
-    });
+
 
     $('.checkout-item-body:not(:first)').hide();
     $('.continue').click(function () {

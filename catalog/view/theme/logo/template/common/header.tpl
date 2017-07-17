@@ -9,9 +9,15 @@
     <link rel="stylesheet" href="catalog/view/theme/logo/libs/slick-1.6.0/slick/slick.css">
     <link rel="stylesheet" href="catalog/view/theme/logo/libs/slick-1.6.0/slick/slick-theme.css">
     <link rel="stylesheet" href="catalog/view/theme/logo/libs/animate.css">
+
+    <script type="text/javascript" src="catalog/view/theme/logo/js/jquery-2.1.3.js"></script>
+
+    <link href="catalog/view/javascript/bootstrap/css/bootstrap.css" rel="stylesheet" media="screen" />
+    <script src="catalog/view/javascript/bootstrap/js/bootstrap.js" type="text/javascript"></script>
+
     <link rel="stylesheet" type="text/css" href="catalog/view/theme/logo/style/style.css">
     <link rel="stylesheet" type="text/css" href="catalog/view/theme/logo/style/media.css">
-    <script type="text/javascript" src="catalog/view/theme/logo/js/jquery-2.1.3.js"></script>
+
     <script type="text/javascript" src="catalog/view/theme/logo/js/common.js"></script>
 
     <script type="text/javascript" src="catalog/view/theme/logo/libs/slick-1.6.0/slick/slick.min.js"></script>
@@ -27,6 +33,9 @@
     <?php foreach ($scripts as $script): ?>
         <script src="<?= $script ?>"></script>
     <?php endforeach; ?>
+
+
+
 </head>
 <body>
 <header>

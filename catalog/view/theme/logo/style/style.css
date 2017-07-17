@@ -444,7 +444,7 @@ header .wrapper {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .basket-button .basket-button-item {
   display: inline-block;
@@ -2124,76 +2124,4 @@ header .wrapper {
 }
 .lang-currency-wr form .dropdown-menu li button:hover {
   background: #efefef;
-}
-.login {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 40px;
-}
-.well {
-  width: 48%;
-  background: #efefef;
-  border-radius: 5px;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  padding: 20px;
-}
-.well h2 {
-  font-size: 24px;
-  margin-bottom: 15px;
-}
-.well p {
-  margin-bottom: 15px;
-  line-height: 20px;
-}
-.well .forgott-password {
-  display: block;
-  width: 100%;
-  margin-bottom: 15px;
-  margin-top: 15px;
-}
-.well .forgott-password:hover {
-  text-decoration: underline;
-}
-.well .form-group {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 15px;
-}
-.well .form-group:last-child {
-  margin-bottom: 0;
-}
-.well .form-group input {
-  height: 30px;
-  width: 45%;
-  background: #efefef;
-  padding: 0 10px;
-}
-.logo-btn {
-  display: inline-block;
-  height: 30px;
-  line-height: 30px;
-  padding: 0 10px;
-  background: #709b1d;
-  border-bottom: 3px solid #5b8112;
-  color: white;
-  border-radius: 5px;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -moz-transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-.logo-btn:hover {
-  background: #929b11;
 }
